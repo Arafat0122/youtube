@@ -20,6 +20,7 @@ nav {
     background-color: gainsboro;
     padding: 15px;
     border-radius: 50px;
+    cursor: pointer;
 }
 
 
@@ -71,5 +72,43 @@ nav {
 
 .search-icon:hover {
     background-color: gainsboro;
+    cursor: pointer;
+}
+
+/* Right side */
+.right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+i {
+    padding: 0;
+}
+
+.create {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 25px;
+    background-color: rgb(240, 239, 239);
+    padding: 10px 25px;
+    border-radius: 35px;
+}
+
+.create:hover {
+    background-color: gainsboro;
+    cursor: pointer;
+}
+
+.profile{
+    border: 0 solid gray;
+    width: 75px;
+    border-radius: 75px;
     cursor: pointer;
 }
