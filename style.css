@@ -1,8 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 20px;
+    margin: 10px 20px;
 }
 
 /* Navbar left side */
@@ -29,7 +34,7 @@ nav {
     display: flex;
     align-items: center;
     gap: 20px;
-    border: 2px solid gray;
+    border: 1px solid gray;
     border-radius: 45px;
 }
 
@@ -38,18 +43,18 @@ nav {
     border: 0 solid;
     outline: none;
     padding-left: 15px;
-    height: 25px;
-    width: 250px;
-    font-size: 20px;
+    height: 20px;
+    width: 350px;
+    font-size: 15px;
 }
 
 .search-icon {
     background-color: rgb(240, 239, 239);
     padding: 10px 20px;
-    border: 1px solid gray;
+    border-left: 1px solid gray;
     border-top-right-radius: 35px;
     border-bottom-right-radius: 35px;
-    font-size: 25px;
+    font-size: 18px;
 }
 
 .middle {
@@ -59,9 +64,9 @@ nav {
 }
 
 .mic {
-    font-size: 25px;
+    font-size: 18px;
     background-color: rgb(240, 239, 239);
-    padding: 20px 22px;
+    padding: 15px 17px;
     border-radius: 35px;
 }
 
@@ -82,22 +87,13 @@ nav {
     gap: 10px;
 }
 
-p {
-    padding: 0;
-    margin: 0;
-}
-
-i {
-    padding: 0;
-}
-
 .create {
     display: flex;
     align-items: center;
     gap: 15px;
-    font-size: 25px;
+    font-size: 18px;
     background-color: rgb(240, 239, 239);
-    padding: 10px 25px;
+    padding: 8px 20px;
     border-radius: 35px;
 }
 
@@ -106,9 +102,41 @@ i {
     cursor: pointer;
 }
 
-.profile{
+.profile {
     border: 0 solid gray;
     width: 75px;
     border-radius: 75px;
     cursor: pointer;
+}
+
+/* Main Section */
+main {
+    display: flex;
+}
+
+.main-left {
+    width: 240px;
+    height: 100vh;
+}
+
+.main-right {
+    width: 1665px;
+    height: 100vh;
+}
+
+.main-left>button {
+    padding: 10px 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 18px;
+    border-style: none;
+    background-color: transparent;
+    border-radius: 10px;
+    width: 90%;
+    margin: 0 auto;
+}
+.main-left>button:hover{
+    background-color: rgb(230, 228, 228);
 }
