@@ -137,6 +137,56 @@ main {
     width: 90%;
     margin: 0 auto;
 }
-.main-left>button:hover{
+
+.main-left>button:hover {
     background-color: rgb(230, 228, 228);
+}
+
+/* Sub navbar creation */
+.sub-nav {
+    display: flex;
+    gap: 20px;
+    justify-content: start;
+}
+
+.sub-nav>p {
+    background-color: gainsboro;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+.sub-nav>p:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+.yCards {
+    cursor: pointer;
+    width: 310px;
+}
+
+.yCards>img {
+    height: 175px;
+    width: 310px;
+    border-radius: 15px;
+}
+
+.yCards-Des {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 5px 0 0;
+}
+
+.yCards-sub {
+    margin: 0 55px;
+    color: gray;
+}
+
+.Cards {
+    display: grid;
+    gap: 20px;
+    grid-template:
+        "a a a a a"
+        "b b b b b";
 }
